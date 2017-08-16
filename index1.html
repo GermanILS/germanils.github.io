@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+    <title>formulario</title>
+  </head>
+  <body>
+
+<h1>Datos del Donante</h1>
+<p>Gracias por tu interes en registrarte como donador de organos. <br>
+Recuerda compartir tu decision con los miembros de tu familia.
+Ellos seran los responsables de que tu deseo sea cumplido.<br>
+
+IMPORTANTE:<br>
+Cuando llenes la forma y presiones Registrar tus datos se incorporaran 
+a nuestra base de datos.A partir de ese momento ya eres donador voluntario
+ de organos <br></p>
+<div id="form1">
+<form method="POST" action="registro.php" > 
+ <link href="style.css" rel="stylesheet" type="text/css">
+<p>
+INFORMACION PERSONAL<br>
+<p>
+<label>nombre</label>
+<input type="text" name="nombreusuario" id="nombre" />
+</p>
+<p>
+<label>apellido</label>
+<input type="text" name="apellidousuario" id="apellido" />
+</p>
+<p>
+<label>edad</label>
+<input type="int" name="edadusuario" id="edad" />
+</p>
+
+<p>
+DOMICILIO<br></p>
+<p>
+<label>direccion</label>
+<input type="text" name="direccionusuario" id="direccion" />
+</p>
+
+<p>
+<label>ccp</label>
+<input type="int" name="ccpusuario" id="ccp" />
+</p>
+
+<p>
+<label>colonia</label>
+<input type="text" name="coloniausuario" id="colonia" />
+</p>
+
+
+<p>
+<label>estado</label>
+<input type="text" name="estadousuario" id="estado" />
+</p>
+
+<p>
+<label>telefono</label>
+<input type="int" name="telefonousuario" id="telefono" />
+</p>
+</p>
+
+<p>
+Organos a donar<br></p>
+
+<p>
+
+<INPUT type="radio" name="Higado" value="Higado"> Higado
+<INPUT type="radio" name="Corazon" value="Corazon">Corazon 
+<INPUT type="radio" name="Pulmon" value="Pulmon">Pulmon 
+<INPUT type="radio" name="Pancreas" value="Pancreas">Pancreas 
+<INPUT type="radio" name="Intestino" value="Intestino"> Intestino<BR>
+<INPUT type="radio" name="Rinon" value="Rinon"> Ri&ntilde;on
+
+
+<INPUT type="radio" name="Cornea" value="Cornea"> Cornea
+<INPUT type="radio" name="Ojo" value="Ojo"> Ojo
+<INPUT type="radio" name="Brazo" value="Brazo">Brazo 
+<INPUT type="radio" name="Venas" value="Venas">Venas 
+</p>
+
+<br> 
+<br><br> 
+<input type="submit" name="submit"  id="enviar" value="Enviar"> 
+ <INPUT type="reset">
+</form> 
+</div>
+
+<script src="main.js"></script>
+  </body>
+</html>

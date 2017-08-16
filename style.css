@@ -1,0 +1,94 @@
+html {
+  font-size: 10px; /* px means 'pixels': the base font size is now 10 pixels high  */
+  font-family: placeholder: this should be the rest of the output you got from Google fonts
+}
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+h2 {
+  font-size: 30px;
+  text-align: right;
+}
+
+p, li {
+  font-size: 20px;    
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+html {
+  background-image:url("http://i.imgur.com/qiOz0sH.png");
+}
+
+body {
+  width: 1000px;
+  margin: 0 auto;
+   background-image:url("http://hildenbiddle.com/images/bg1.png");
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;    
+  color: #FFFFFF;
+  text-shadow: 3px 3px 1px black;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+img{max-width:100%;}
+
+html {
+  font-size: 10px; /* px means 'pixels': the base font size is now 10 pixels high  */
+  font-family: placeholder: this should be the rest of the output you got from Google fonts
+}
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+h2 {
+  font-size: 30px;
+  text-align: right;
+}
+
+p, li {
+  font-size: 20px;    
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+html {
+  background-image:url("https://cdn.pixabay.com/photo/2015/04/04/20/00/paper-706989_960_720.jpg");
+}
+
+body {
+  width: 1000px;
+  margin: 0 auto;
+   background-image:url("http://k39.kn3.net/taringa/6/5/2/1/3/1/4/b2kcarolina/503.jpg?8605");
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;    
+  color: #FFFFFF;
+  text-shadow: 3px 3px 1px black;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+
+div label{
+width: 15%;
+float: left;
+
+}
