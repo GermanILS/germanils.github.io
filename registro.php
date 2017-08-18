@@ -10,7 +10,6 @@ $edad = $_POST['edadusuario'];
 $direccion = $_POST['direccionusuario'];
 $ccp = $_POST['ccpusuario'];
 $colonia = $_POST['coloniausuario'];
-$estado = $_POST['estadousuario'];
 $telefono = $_POST['telefonousuario'];
 $higado= $_POST['Higado'];
 $Corazon= $_POST['Corazon'];
@@ -23,7 +22,7 @@ $ojo = $_POST['Ojo'];
 $brazo= $_POST['Brazo'];
 $venas = $_POST['Venas'];
 
-mysql_query("INSERT INTO usuarios VALUES  ('','$nombre','$apellido','$edad','$direccion','$ccp','$colonia','$estado','$telefono','$higado','$Corazon','$pulmon','$pancreas','$intestino','$rinon','$cornea','$ojo','$brazo','$venas') ", $link) or die ("<h2>Error de conexion</h2>");
+mysql_query("INSERT INTO usuarios VALUES  ('','$nombre','$apellido','$edad','$direccion','$ccp','$colonia','$telefono','$higado','$Corazon','$pulmon','$pancreas','$intestino','$rinon','$cornea','$ojo','$brazo','$venas') ", $link) or die ("<h2>Error de conexion</h2>");
 echo' <script> 
 alert("Registro Exitoso"); 
 location.href="index.html"; 
